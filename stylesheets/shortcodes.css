@@ -2139,7 +2139,7 @@ ul.flat-infomation.style1 li img {
 	padding-top:57px;
 	padding-right:75px;
 	position:relative;
-	float:right;
+	/* float:right; */
 }
 
 .slider .slider-item:before {
