@@ -1427,7 +1427,7 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 #mega-menu > ul.menu > li .drop-menu > .one-third {
-	width:33.3%;
+	width:50%;
 	float:left;
 	padding-left:42px;
 	padding-right:15px;
