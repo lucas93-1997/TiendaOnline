@@ -93,7 +93,8 @@
 @media only screen and (min-width:1200px) and (max-width:1366px) {
 	
 	#mega-menu > ul.menu > li .drop-menu {
-		left:258px;width:879px;
+		left:258px;
+		width:600px;
 	}
 
 	.flat-location .location-detail {
@@ -335,7 +336,7 @@
 	}
 
 	.drop-menu > .one-third:first-child {
-		padding-left:15px;n
+		padding-left:15px;
 	}
 
 	.box-right .img-line {
