@@ -1089,7 +1089,7 @@ ul.flat-unstyled li > ul > li > a {
 	border-radius:8px;
 	top:150px;
 	width:332px;
-	right:0;
+	right:-55px;
 	opacity:0;
 	visibility:hidden;
 	z-index:99;
