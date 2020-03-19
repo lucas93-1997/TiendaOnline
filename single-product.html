@@ -699,29 +699,16 @@
 					</div><!-- /.col-md-6 -->
 					<div class="col-md-6">
 						<div class="product-detail">
+							<div class="reviewed">
+								<div class="status-product">
+									Disponibilidad <span>Con stock</span>
+								</div>
+							</div><!-- /.reviewed -->
 							<div class="header-detail">
 								<h4 class="name">Warch 42 mm Smart Watches</h4>
 								<div class="category">
 									Smart Watches
 								</div>
-								<div class="reviewed">
-									<div class="review">
-										<div class="queue">
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-										</div>
-										<div class="text">
-											<span>3 Reviews</span>
-											<span class="add-review">Add Your Review</span>
-										</div>
-									</div><!-- /.review -->
-									<div class="status-product">
-										Availablity <span>In stock</span>
-									</div>
-								</div><!-- /.reviewed -->
 							</div><!-- /.header-detail -->
 							<div class="content-detail">
 								<div class="price">
@@ -741,64 +728,30 @@
 							</div><!-- /.content-detail -->
 							<div class="footer-detail">
 								<div class="quanlity-box">
+									<label>Color: </label>
 									<div class="colors">
 										<select name="color">
-											<option value="">Select Color</option>
 											<option value="">Black</option>
 											<option value="">Red</option>
 											<option value="">White</option>
 										</select>
 									</div>
-									<div class="quanlity">
-										<span class="btn-down"></span>
-										<input type="number" name="number" value="" min="1" max="100" placeholder="Quanlity">
-										<span class="btn-up"></span>
+									<label>Cantidad: </label>
+									<div class="colors">
+										<select name="color">
+											<option value="">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+											<option value="">4</option>
+											<option value="">5</option>
+										</select>
 									</div>
 								</div><!-- /.quanlity-box -->
 								<div class="box-cart style2">
 									<div class="btn-add-cart">
 										<a href="" title=""><img src="images/icons/add-cart.png" alt="">Comprar</a>
 									</div>
-									<div class="compare-wishlist">
-										<a href="compare.html" class="compare" title=""><img src="images/icons/compare.png" alt="">Compare</a>
-										<a href="compare.html" class="wishlist" title=""><img src="images/icons/wishlist.png" alt="">Wishlist</a>
-									</div>
 								</div><!-- /.box-cart -->
-								<div class="social-single">
-									<span>SHARE</span>
-									<ul class="social-list style2">
-										<li>
-											<a href="#" title="">
-												<i class="fa fa-facebook" aria-hidden="true"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" title="">
-												<i class="fa fa-twitter" aria-hidden="true"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" title="">
-												<i class="fa fa-instagram" aria-hidden="true"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" title="">
-												<i class="fa fa-pinterest" aria-hidden="true"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" title="">
-												<i class="fa fa-dribbble" aria-hidden="true"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" title="">
-												<i class="fa fa-google" aria-hidden="true"></i>
-											</a>
-										</li>
-									</ul><!-- /.social-list -->
-								</div><!-- /.social-single -->
 							</div><!-- /.footer-detail -->
 						</div><!-- /.product-detail -->
 					</div><!-- /.col-md-6 -->
@@ -808,12 +761,15 @@
 
 		<section class="flat-product-content">
 			<ul class="product-detail-bar">
-				<li class="active">Description</li>
-				<li>Tecnical Specs</li>
-				<li>Reviews</li>
+				<li class="active">Descripción</li>
+				<li>Especificaciones técnicas</li>
+				<li>Comentarios</li>
+				<li>Preguntas</li>
 			</ul><!-- /.product-detail-bar -->
+			
 			<div class="container">
-				<div class="row">
+<!---------------------------------- Descripción ---------------------------------->
+             	<div class="row">
 					<div class="col-md-6">
 						<div class="description-text">
 							<div class="box-text">
@@ -881,6 +837,7 @@
 						</div><!-- /.box-right -->
 					</div><!-- /.col-md-6 -->
 				</div><!-- /.row -->
+<!------------------------ Especificaciones técnicas --------------------------------->
 				<div class="row">
 					<div class="col-md-12">
 						<div class="tecnical-specs">
@@ -922,16 +879,17 @@
 						</div><!-- /.tecnical-specs -->
 					</div><!-- /.col-md-12 -->
 				</div><!-- /.row -->
+<!------------------------------- Comentarios----------------------------------------->				
 				<div class="row">
 					<div class="col-md-6">
 						<div class="rating">
 							<div class="title">
-								Based on 3 reviews
+								Basado en 3 comentarios
 							</div>
 							<div class="score">
 								<div class="average-score">
 									<p class="numb">4.3</p>
-									<p class="text">Average score</p>
+									<p class="text">Puntuación</p>
 								</div>
 								<div class="queue">
 									<i class="fa fa-star" aria-hidden="true"></i>
@@ -998,10 +956,10 @@
 					<div class="col-md-6">
 						<div class="form-review">
 							<div class="title">
-								Add a review 
+								Agrega un comentario
 							</div>
 							<div class="your-rating queue">
-								<span>Your Rating</span>
+								<span>Tu puntuación</span>
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
@@ -1019,7 +977,92 @@
 									<textarea name="review-text" placeholder="Your Name"></textarea>
 								</div>
 								<div class="btn-submit">
-									<button type="submit">Add Review</button>
+									<button type="submit">Agregar comentario</button>
+								</div>
+							</form>
+						</div><!-- /.form-review -->
+					</div><!-- /.col-md-6 -->
+					<div class="col-md-12">
+						<ul class="review-list">
+							<li>
+								<div class="review-metadata">
+									<div class="name">
+										Ali Tufan : <span>April 3, 2016</span>
+									</div>
+									<div class="queue">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+								</div><!-- /.review-metadata -->
+								<div class="review-content">
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+									</p> 
+								</div><!-- /.review-content -->
+							</li>
+							<li>
+								<div class="review-metadata">
+									<div class="name">
+										Peter Tufan : <span>April 3, 2016</span>
+									</div>
+									<div class="queue">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+								</div><!-- /.review-metadata -->
+								<div class="review-content">
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+									</p> 
+								</div><!-- /.review-content -->
+							</li>
+							<li>
+								<div class="review-metadata">
+									<div class="name">
+										Jon Tufan : <span>April 3, 2016</span>
+									</div>
+									<div class="queue">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+								</div><!-- /.review-metadata -->
+								<div class="review-content">
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+									</p> 
+								</div><!-- /.review-content -->
+							</li>
+						</ul><!-- /.review-list -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+<!----------------------------- Preguntas ------------------------------------------>
+				<div class="row">
+					<div class="col-md-7">
+						<div class="form-review">
+							<div class="title">
+								Escribi tu pregunta
+							</div>
+							<form action="#" method="get" accept-charset="utf-8">
+								<div class="review-form-name">
+									<input type="text" name="name-author" value="" placeholder="Name">
+								</div>
+								<div class="review-form-email">
+									<input type="text" name="email-author" value="" placeholder="Email">
+								</div>
+								<div class="review-form-comment">
+									<textarea name="review-text" placeholder="Your Name"></textarea>
+								</div>
+								<div class="btn-submit">
+									<button type="submit">Enviar</button>
 								</div>
 							</form>
 						</div><!-- /.form-review -->
