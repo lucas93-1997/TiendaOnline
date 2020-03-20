@@ -967,10 +967,7 @@
 	line-height:182px;
 }
 
-.product-wrap .product-box.line .imagebox.style2 .box-content .cat-name a:before,
-.product-wrap .product-box.line .imagebox.style2 .box-content .cat-name a:after {
-	
-}
+
 
 .product-wrap .product-box.line .imagebox.style2 .box-content .product-name a {
 	font-size:16px
@@ -3588,8 +3585,6 @@ body.background .flat-imagebox.style4 .owl-carousel-3.owl-theme .owl-controls .o
 	min-height:auto;
 }
 
-.wrap-imagebox .box-product .row .imagebox:hover {
-}
 
 .wrap-imagebox .rows {
 	margin-left:-15px;
@@ -4455,7 +4450,7 @@ input[type="checkbox"]:checked + label:before {
 
 .reviewed .status-product {
 	float:right;
-	padding-top:12px;
+	/* padding-top:12px; */
 	color:#484848;
 }
 
@@ -4926,7 +4921,7 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .form-review form > div > input {
-	width:355px;
+	width:100%;
 	background-color:#fff;
 	border:none;
 	height:40px;
@@ -6267,8 +6262,7 @@ table.product thead tr th:last-child {
 	overflow:auto;
 }
 
-.table-compare {
-}
+
 
 .table-compare tr:not(:last-child) {
 	border-bottom:1px solid #e5e5e5;
